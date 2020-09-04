@@ -16,4 +16,12 @@ public class SPGLogin extends Page {
         //验证是否进入到登录界面
         @FindBy(xpath = "//*[@id=\"root\"]/div/div[2]/form/h2")
         public  WebElement DLJMtext;
+
+        //用户名
+        @FindBy(id = "username")
+        public WebElement username ;
+
+        //密码
+        @FindBy(id = "passwd")
+        public WebElement passwdbox;
 }

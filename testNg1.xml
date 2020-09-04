@@ -7,6 +7,8 @@
         <parameter name="DriverName" value="chrome" />
         <parameter name="ChromeDriverPath" value=".\src\main\resources\chromedriver.exe"/>
         <parameter name="SPG_URl" value="https://172.20.52.115"/>
+        <parameter name="Username" value="secadmin"/>
+        <parameter name="passwd" value="sailing2018!"/>
         <classes>
             <class name="webTest.DemoTest"></class>
         </classes>
