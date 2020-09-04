@@ -55,6 +55,7 @@ public class Open_browsers  {
             // 找东西前等3秒
             Open_browsers.getDriver().manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         }
+            driver.manage().window().maximize();
 
         return driver;
     }

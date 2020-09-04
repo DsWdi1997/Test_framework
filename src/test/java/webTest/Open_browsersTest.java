@@ -23,8 +23,9 @@ public class Open_browsersTest  {
     }
 
     @AfterMethod(alwaysRun = true)
-    public void tearDown() {
-        open_browsers.quitDriver();
+    public void tearDown() throws InterruptedException {
+        //Thread.sleep(10000);
+        //open_browsers.quitDriver();
     }
 
 }
