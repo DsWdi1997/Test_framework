@@ -7,6 +7,7 @@
         <parameter name="DriverName" value="chrome" />
         <parameter name="ChromeDriverPath" value=".\src\main\resources\chromedriver.exe"/>
         <parameter name="baidu_url" value="http://www.baidu.com"/>
+        <parameter name="baidu_url" value="http://www.baidu.com"/>
         <classes>
             <class name="webTest.DemoTest"></class>
         </classes>
